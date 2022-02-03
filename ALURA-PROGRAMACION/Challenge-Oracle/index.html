@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+  <title>Challenge 1</title>
+</head>
+<body>
+  <h1 class="titulo">Encriptador y Desencriptador de Texto</h1>
+
+  <main id="contenedorPrincipal" class="main">
+
+    <div id="tarjeta1" class="box">
+        <input type="text" id="mensaje" class="text-input" placeholder="Ingrese su texto aquí" onkeypress="return validarMensaje(event)" >
+        <div class="contenedorBotones">
+            <input type="button" value="Encriptar" id="botonEncriptador" class="btnEncriptador">
+            <input type="button" value="Desencriptar" id="botonDesencriptador" class="btnDesencriptador">
+        </div>
+    </div>
+
+    <div id="tarjeta2" class="box">
+        <input type="text" id="resultado" class="text-input" placeholder="Su mensaje">
+        <div class="contenedorBotonCopiar">
+            <input type="button" value="Copiar" id="botonCopiar" class="btnCopiar">
+        </div>
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

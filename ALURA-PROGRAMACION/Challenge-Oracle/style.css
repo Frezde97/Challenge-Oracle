@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+position: relative;
+width: auto;
+height: auto;
+background: #F3F5FC;
+}
+
+.main {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: rgba(10, 56, 113, 1);
+  padding: 15px;
+  min-width: 80%;
+  margin: auto;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.box {
+  padding: 20px;
+  margin: 20px 200px 20px 200px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  border-radius: 0.5em;
+  width: auto;
+  height: auto;
+ 
+}
+
+
+
+.btnEncriptador {
+  border: 0;
+  color: white;
+  font-family: 'inter', sans-serif;
+  font-weight: normal;
+  background-color: rgba(10, 56, 113, 1);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 0.5em;
+  transition: all 300ms;
+}
+
+.btnDesencriptador {
+  border: 0;
+  color: rgba(10, 56, 113, 1);
+  font-family: 'inter', sans-serif;
+  font-weight: normal;
+  background-color: rgba(216, 223, 232, 1);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 0.5em;
+  transition: all 300ms;
+}
+
+.btnCopiar {
+  border: 0;
+  color: rgba(10, 56, 113, 1);
+  font-family: 'inter', sans-serif;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0,08);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 0.5em;
+  transition: all 300ms;
+}
+
+
+
+.btnEncriptador:hover {
+  transform: scale(1.025, 1.025);
+  background-color: rgb(219, 216, 232);
+  color: rgb(63, 63, 63);
+  box-shadow: 0px 0px 1px 1px rgb(63, 63, 63, 0.2);
+}
+
+
+.btnDesencriptador:hover {
+  transform: scale(1.025, 1.025);
+  background-color: rgba(10, 56, 113, 1);
+  color: white;
+  box-shadow: 0px 0px 1px 1px rgb(63, 63, 63, 0.2);
+}
+
+.btnCopiar:hover {
+  transform: scale(1.025, 1.025);
+  box-shadow: 0px 0px 1px 1px rgb(63, 63, 63, 0.2);
+  background-color: rgba(10, 56, 113, 1);
+  color: white;
+}
+
+
+
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  font-family:'inter', sans-serif;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  transition: all 300ms;
+}
+
+.text-input:hover{
+  border-color: rgb(67, 99, 148);
+  transform: scale(1.025, 1.025);
+  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.08);
+}
